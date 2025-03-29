@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    font-family: 'Promt', sans-serif;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+html, body {
+  overflow-x: hidden; 
+  width: 100%;
+}
+
+svg {
+    display: block;
+    margin-top: -65px;
+    width: 100%;
+    height: auto;
+  }
+
+  section {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* ============================NNAVIGATION BAR============================ */
+   .header-nav {
+    background: transparent; 
+    padding: 10px 20px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    position: absolute; 
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box; 
+  }
+  
+  .header-nav a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    transition: color 0.3s;
+    font-family: "Play", sans-serif;
+    font-weight: 800;
+  }
+  
+  .header-nav a:hover {
+    color: #f7cfae;
+
+  }
+
+
+  /* ============================FONTS============================ */
+
+  .play-regular {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .play-bold {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  /* ============================COLORS============================ */
+
+.blue {
+    background: #264653 !important;
+}
+
+.tan {
+  background: #f8ece0 !important;
+}
+
+.yellow {
+    background: #E9C46A !important;
+}
+
+.orange {
+    background: #F4A261 !important;
+}
+
+.red {
+    background: #b25640 !important;
+}
+
+/* ============================HEADER SECTION============================ */
+
+
+.header-section{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 0;
+}
+
+
+.header-font-top {
+  font-family: "Play", sans-serif;
+  font-weight: 800;
+  font-size: 8em;
+  line-height: 7rem;
+  color: white;
+  -webkit-text-stroke: 3px #264653; 
+  text-align: left;
+  margin-left: 20px;
+  display: inline-block;
+  background-color: #264653;
+  padding: 0.1em 0.05em;
+
+}
+.header-font-bottom {
+  font-family: "Play", sans-serif;
+  font-weight: 800;
+  font-size: 8rem;
+  line-height: 8rem;
+  color: #2b708c;
+  -webkit-text-stroke: 2px #2b708c; 
+  text-align: left;
+  margin-left: 12px;
+}
+
+
+
+/* ============================ABOUT SECTION============================ */
+.about-section{
+  position: relative;
+  width: 100%;
+  margin: 0;
+  margin-left: 100px;
+  margin-top: 50px;
+  padding: 0;
+  margin-top: 150px;
+
+}
+
+
+.hello {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #d56a4f;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.project-heading {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #d56a4f;
+  text-align: left;
+  margin-left: 120px;
+}
+
+.about-paragraph {
+
+  font-family: "Play", sans-serif;
+  font-weight: 300;
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  color: #264653;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 3rem;
+  max-width: 85%; 
+  width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.typewriterStyling {
+ margin-left: 20px;
+ font-size: 22px;
+}
+
+.typewrite{
+  color: #E76F51;
+  font-size: 35px;
+}
+
+
+
